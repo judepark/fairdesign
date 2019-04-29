@@ -4,9 +4,9 @@ const pxtorem = require('postcss-pxtorem')
 module.exports = {
   siteMetadata: {
     url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    title: 'Fair Design Research Blog - by Jude Park',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      '',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -15,19 +15,19 @@ module.exports = {
         path: '/',
       },
       {
-        label: 'About me',
+        label: 'About the research',
         path: '/about/',
       },
       {
-        label: 'Contact me',
-        path: '/contact/',
+        label: 'What is fair design?',
+        path: '/fair-design/',
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
+      name: 'Fair Design Research',
+      email: 'jude@judepark.com',
+      telegram: 'https://www.judepark.com/',
+      twitter: 'judepark',
       github: '#',
       rss: '#',
       vk: '#',
