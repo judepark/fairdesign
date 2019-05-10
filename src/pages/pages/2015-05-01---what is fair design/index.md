@@ -9,7 +9,12 @@ path: "/fair-design"
 
 ##Introduction
 
-Fair Design is a design principle that aims to ensure each social groups have the access necessary to receive the intended service of a product or innovation. The framework gauges social privileges of the users, and measures access by their proximity to intended information. Design guides our access to information. Yet due to unfair design practices, products and services may unintentionally build barriers and discriminate social groups. The goal of fair design is to proactively prepare for a future that is inclusive, and leaves no one behind.
+Fair Design was founded during my masters education, when as a young UX designer I noticed a lack of discipline and pedagogies aimed at educating designers on how to create digital experiences that can be used fairly for users with marginalized experiences. 
+
+A lack of awareness or interest in the users' accessibility needs, lack of social privileges, or proximity to resources can indirectly build barriers or lead to discriminatory designs (bad design). 
+
+Fair Design is built upon the frameworks of <a href="https://www.interaction-design.org/literature/topics/accessibility" title="Interaction Design Foundation's Definition of Accessibility" target="_blank" rel="noopener noreferrer">Accessibility Design</a> (*Designing for Disability*), <a href="https://idrc.ocadu.ca/" title="OCAD's Inclusive Design Centre" target="_blank" rel="noopener noreferrer">Inclusive Design</a> (*Designing for Diversity*) and <a href="http://universaldesign.ie/What-is-Universal-Design/" title="National Disability Authority's Definition of Universal Design" target="_blank" rel="noopener noreferrer">Universal Design</a> (*Designing for All*). Fair Design also adopts mandates from design activisms groups across the globe, to understand specific needs of social groups and address their needs. What seperates Fair Design from other frameworks is the designer's role in measuring the users' access to information by considering the privileges of the target user group in the design process. 
+
 
 **Fair<sup>1</sup>**<br/>*[fair] adjective*<br/>**<sup>1</sup>Free from bias, dishonesty, or injustice.**
 
@@ -20,13 +25,14 @@ Fair Design is a design principle that aims to ensure each social groups have th
 
 </div>
 
-##History of Fair Design
-
-Fair Design was conceptualized in 2018, in my research of user experience design as a discipline and pedagogy. With assistance from Dr. Olivier St.Cyr of University of Toronto, I created a reading course titled “Fair Design – Ethical Frameworks for Inclusive Design Principles”, where I published an essay and design methodology that can be used by others to begin incorporating fair design practices into their product or service design. 
-
-Fair Design is inspired by the frameworks of <a href="https://www.interaction-design.org/literature/topics/accessibility" title="Interaction Design Foundation's Definition of Accessibility" target="_blank" rel="noopener noreferrer">Accessibility Design</a> (*Designing for Disability*), <a href="https://idrc.ocadu.ca/" title="OCAD's Inclusive Design Centre" target="_blank" rel="noopener noreferrer">Inclusive Design</a> (*Designing for Diversity*) and <a href="http://universaldesign.ie/What-is-Universal-Design/" title="National Disability Authority's Definition of Universal Design" target="_blank" rel="noopener noreferrer">Universal Design</a> (*Designing for All*). Fair Design also adopts mandates from design activisms groups across the globe, to understand specific needs of social groups. The output of the fair design framework is a product or service that spark pleasing yet accessible experiences to target social groups.
- 
 ##Framework
+
+- Fair Design asks "How can design allow access to information without any barriers?"
+- Fair Design operates on the principle designers should not build products and services with unintentional bias, barriers or discrimination of social groups. 
+- The goal of Fair Design is to proactively prepare for a future that is inclusive to all and leaves no one behind. By creating frameworks early on in the design process and bring voices to the table that can illuminate experiences and perspectives not only found in the office environment.
+- If that's not possible then at least communicate to the user that the current iteration of the patch is not fully accessible to all groups. 
+
+
 ###Principles of Fair Design
 1.	**Value-Driven Goals** – Define the value to be delivered through the product or service. 
 2.	**Representative Teams with Identities** – Formalize a team with self-identifying members of the community in which the product will be designed for 
