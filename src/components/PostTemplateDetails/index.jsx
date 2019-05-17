@@ -1,7 +1,7 @@
 import React from 'react'
+import Sidebar from '../Sidebar'
 import { Link } from 'gatsby'
 import moment from 'moment'
-import Disqus from '../Disqus/Disqus'
 import './style.scss'
 
 class PostTemplateDetails extends React.Component {
@@ -9,14 +9,6 @@ class PostTemplateDetails extends React.Component {
     const { subtitle, author } = this.props.data.site.siteMetadata
     const post = this.props.data.markdownRemark
     const tags = post.fields.tagSlugs
-
-    const homeBlock = (
-      <div>
-        <Link className="post-single__home-button" to="/">
-          All Articles
-        </Link>
-      </div>
-    )
 
     const tagsBlock = (
       <div className="post-single__tags">
@@ -33,18 +25,11 @@ class PostTemplateDetails extends React.Component {
       </div>
     )
 
-    const commentsBlock = (
-      <div>
-        <Disqus
-          postNode={post}
-          siteMetadata={this.props.data.site.siteMetadata}
-        />
-      </div>
-    )
-
     return (
       <div>
-        {homeBlock}
+        <Sidebar {...this.props} />
+        <div className="content">
+  <div className="content__inner">
         <div className="post-single">
           <div className="post-single__inner">
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
@@ -72,10 +57,13 @@ class PostTemplateDetails extends React.Component {
                 <br /> <strong>{author.name}</strong> on Twitter
               </a>
             </p>
-            {commentsBlock}
           </div>
         </div>
       </div>
+      </div>
+</div>
+
+
     )
   }
 }

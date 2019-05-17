@@ -15,6 +15,7 @@
             background-clip: padding-box;
         }
         &-title {
+            font-family: $typographic-font-family-sans;
             font-size: $typographic-base-font-size * 1.125;
             font-weight: 500;
             @include line-height(1.125);
@@ -34,6 +35,7 @@
         }
     }
     &__copyright {
+        font-family: $typographic-font-family-sans;
         color: lighten($color-gray, 18%);
         font-size: $typographic-small-font-size;
     }
