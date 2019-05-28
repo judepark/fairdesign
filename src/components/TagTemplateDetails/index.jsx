@@ -15,7 +15,7 @@ class TagTemplateDetails extends React.Component {
         <div className="content__inner">
           <div className="page">
             <h1 className="page__title">
-              All Posts tagged as &quot;
+              All Articles Tagged &quot;
               {tagTitle}
               &quot;
             </h1>

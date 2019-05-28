@@ -45,7 +45,9 @@ class PostTemplateDetails extends React.Component {
             </div>
           </div>
           <div className="post-single__footer">
+            Tagged: <div style={{display: 'inline-block'}}>
             {tagsBlock}
+            </div>
             <hr />
             <p className="post-single__footer-text">
               {subtitle}

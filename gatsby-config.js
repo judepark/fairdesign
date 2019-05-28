@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://lumen.netlify.com',
     title: 'Fair Design Research Blog - by Jude Park',
     subtitle:
-      '',
+      'By Jude Park - User Experience and Interaction Designer based in Toronto.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [

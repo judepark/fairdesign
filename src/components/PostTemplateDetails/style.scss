@@ -2,22 +2,14 @@
 @import "../../assets/scss/mixins";
 
 .post-single {
-    &__inner {
-        max-width: $layout-post-single-max-width;
-        padding: 0 15px;
-        margin: 0 auto;
-    }
+    @include margin-bottom(2);
     &__title {
         font-family: $typographic-font-family-sans;
-        font-size: $typographic-base-font-size * 2;
-        max-width: $layout-post-single-width;
-        margin-left: auto;
-        margin-right: auto;
-        font-weight: 600;
-        text-align: center;
-        @include line-height(1.65);
-        @include margin-top(1);
-        @include margin-bottom(0);
+        font-size: $typographic-base-font-size * 2.5;
+        font-weight: 500;
+        @include line-height(2);
+        @include margin-top(0);
+        @include margin-bottom(1.45);
     }
     &__body {
         & figure {
@@ -79,43 +71,17 @@
                 display: inline-block;
                 margin: 10px 5px;
                 &-link {
-                    background: $color-gray-bg;
-                    text-decoration: none;
-                    border: 0;
-                    border-radius: 3px;
-                    color: lighten($color-base, 20%);
-                    line-height: $typographic-base-line-height;
-                    padding: 8px 16px;
+                    font-family: $typographic-font-family-sans;
+                    font-size: $typographic-small-font-size;
+                    color: $color-secondary;
+                    font-weight: 500;
+                    text-transform: uppercase;
                     &:hover,
                     &:focus {
-                        color: $color-base;
-                        background: darken($color-gray-bg, 5%);
-                        border: 0;
+                        color: $color-primary;
                     }
                 }
             }
-        }
-    }
-    &__home-button {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 90px;
-        font-size: $typographic-base-font-size;
-        padding: 0 16px;
-        height: 35px;
-        line-height: 35px;
-        text-align: center;
-        color: lighten($color-base, 20%);
-        background: $color-gray-bg;
-        font-weight: 400;
-        border-radius: 3px;
-        @include margin-top(1);
-        &:hover,
-        &:focus {
-            color: $color-base;
-            background: darken($color-gray-bg, 5%);
-            border: 0;
         }
     }
 }
@@ -144,9 +110,9 @@
             font-family: $typographic-font-family-sans;
             font-size: $typographic-base-font-size * 2.5;
             font-weight: 500;
-            @include line-height(2.25);
-            @include margin-top(2.25);
-            @include margin-bottom(1.5);
+            @include line-height(2);
+            @include margin-top(0);
+            @include margin-bottom(1.45);
         }
         &__body {
             font-size: $typographic-base-font-size;

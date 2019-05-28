@@ -7,9 +7,9 @@ path: "/about"
 
 ---
 
-This is a research blog on design biases and discrimination, and how designers can avoid them in their process. 
+This is a research blog on technological/design biases and discrimination, and how designers can avoid them in our process. 
 
-Browse and contribute to this collaborative body of research that aims to improve our awareness on marginalized users and experiences. We hope to proactively prepare for a future that is inclusive, accessible and fair to all, by exploring and learning from each other. 
+Browse and contribute to this collaborative body of work that aims to improve our awareness on marginalized users and experiences. We hope to proactively prepare for a future that is inclusive, accessible and fair to all, by exploring and learning from each other. 
 
 We accept all submissions that explores the theme of equity, ethics and fairness in technological innovations. 
 
