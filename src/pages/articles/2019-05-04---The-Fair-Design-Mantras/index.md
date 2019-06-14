@@ -11,21 +11,13 @@ description: "I vow as a researcher researching Fair Design"
 ---
 
 
- 
-####I vow as a researcher...
+My Mantra for this Research
 
-1. To not Leave My Identity at the Door. (I will not hide, avert, avoid or disguise experiences of marginalized individuals)
-2. To operate on the basis of knowledge that we are all on a path towards betterment - No one is complete in our path towards progress.
-3. To share experiences of bias, discrimination, neglect and microaggressions without shame and fear of retribution. 
+####I vow as a fair design researcher...
 
-
-
- (Meaning I will not filter my marginalized experiences to fit in or have my writing more widely accepted by the greater audience. Part of doing this research is to openly share marginalized experiences and bring those voices to the center of the discussion. Far too often in professional settings we are conditioned to leave our identities (whether it be being a woman, being a person of colour, being not the majority idenitity) at the door and o sharing my experiences. Fair Design Research cannot be done by hiding our experiences as marginalized individuals. 
-2. Write not for an audience. Write for you to not forget what you thought, felt, and experienced.
-3. This is not a muddled down, filtered, inauthentic archive. This is not Medium, where everyone writes to follow trends. 
-4. Your writing will not be liked, just get that out of the way. I do not write to walk on eggshells or to satsify a reader. I Write to record what I feel.
-5. If you find yourself in the middle of writing filtering yourself and not sharing your frustrations, microaggression, experiences of bias, neglect and discrimination... Stop and come back to your writing. Write it for yourself first.
-
+1. I will <u>not</u> park my identity at the door. (I will not hide, avert, avoid or disguise marginal experiences, including my own.)
+2. For the purpose of betterment, I will share experiences of bias, discrimination, prejudice, neglect and microaggressions without shame and/or fear of retribution. 
+3. To operate on the basis that there is always room for improvement - No one is complete in our path towards progress (social or design).
 
 ![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](./1.jpg)
 

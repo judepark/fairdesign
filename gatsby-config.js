@@ -3,10 +3,10 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Fair Design Research Blog - by Jude Park',
+    url: 'https://fairdesign.ca',
+    title: 'Fair Design Research - by Jude Park',
     subtitle:
-      'By Jude Park - User Experience and Interaction Designer based in Toronto.',
+      'Research by Jude Park, User Experience + Inclusion Expert based in Toronto.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
@@ -24,8 +24,8 @@ module.exports = {
       },
     ],
     author: {
-      name: 'Fair Design Research',
-      email: 'jude@judepark.com',
+      name: 'Fair Design',
+      email: 'fairdesignresearch@gmail.com',
       telegram: 'https://www.judepark.com/',
       twitter: 'judepark',
       github: '#',

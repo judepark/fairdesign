@@ -29,7 +29,9 @@
             }
         }
         &-subtitle {
-            color: $color-gray;
+            font-family: $typographic-font-family-sans;
+            color: lighten($color-gray, 18%);
+            font-size: $typographic-small-font-size;
             @include line-height(1);
             @include margin-bottom(1);
         }

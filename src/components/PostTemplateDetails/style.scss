@@ -5,11 +5,9 @@
     @include margin-bottom(2);
     &__title {
         font-family: $typographic-font-family-sans;
-        font-size: $typographic-base-font-size * 2.5;
-        font-weight: 500;
-        @include line-height(2);
+        @include line-height(1.5);
         @include margin-top(0);
-        @include margin-bottom(1.45);
+        @include margin-bottom(-.5);
     }
     &__body {
         & figure {
@@ -25,6 +23,7 @@
                     margin-top: 0;
                     @include margin-bottom(1);
                     @include line-height(1.5);
+                    @include margin-top(1.45);
                 }
             }
         }
@@ -51,25 +50,30 @@
         @include margin-top(1);
         @include margin-bottom(2);
         &-text {
+            font-family: $typographic-font-family-sans;
+            color: lighten($color-gray, 18%);
+            font-size: $typographic-small-font-size;
             & a {
-                text-decoration: underline;
+
             }
         }
     }
     &__date {
-        max-width: $layout-post-single-width;
-        margin-left: auto;
-        margin-right: auto;
+        font-family: $typographic-font-family-sans;
+        font-size: $typographic-small-font-size;
+        color: $color-base;
+        font-weight: 500;
+        text-transform: uppercase;
     }
     &__tags {
-        @include margin-bottom(.5);
+        @include margin-bottom(0);
         &-list {
             list-style: none;
             margin: 0 -5px;
             padding: 0;
             &-item {
                 display: inline-block;
-                margin: 10px 5px;
+                margin: 5px -5px 5px 5px;
                 &-link {
                     font-family: $typographic-font-family-sans;
                     font-size: $typographic-small-font-size;
@@ -96,6 +100,7 @@
             & .gatsby-highlight {
                 margin-left: auto;
                 margin-right: auto;
+                @include margin-top(1.45);
             }
         }
     }
@@ -108,11 +113,9 @@
         }
         &__title {
             font-family: $typographic-font-family-sans;
-            font-size: $typographic-base-font-size * 2.5;
-            font-weight: 500;
-            @include line-height(2);
+            @include line-height(1.2);
             @include margin-top(0);
-            @include margin-bottom(1.45);
+            @include margin-bottom(-.5);
         }
         &__body {
             font-size: $typographic-base-font-size;
@@ -122,6 +125,7 @@
                 font-size: $typographic-base-font-size * 1.125;
                 @include line-height(1.125);
                 @include margin-bottom(1.125);
+                @include margin-top(1.45);
             }
         }
         &__home-button {
