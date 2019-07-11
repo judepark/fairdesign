@@ -8,17 +8,11 @@ class Links extends React.Component {
     const links = {
       telegram: author.telegram,
       twitter: author.twitter,
-      email: author.email,
     }
 
     return (
       <div className="links">
         <ul className="links__list">
-          <li className="links__list-item">
-          <a href={`mailto:${links.email}`} target="_blank">
-              <i className="icon-mail" />
-            </a>
-          </li>
           <li className="links__list-item">
             <a href={`${links.telegram}`} target="_blank">
               <i className="icon-paper-plane" />

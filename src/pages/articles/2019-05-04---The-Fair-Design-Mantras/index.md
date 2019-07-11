@@ -1,21 +1,27 @@
 ---
-title: The Fair Design Research Mantra
+title: The Fair Design Mantra
 date: "2016-11-04T23:46:37.121Z"
 layout: post
 draft: false
-path: "/posts/the-fair-design-mantras"
+path: "/posts/the-fair-design-mantra"
 category: ""
 tags:
   - ""
-description: "I vow as a researcher of Fair Design, to never diminish the voices of minorities nor to stop seeking information."
+description: "These are my vows to be a responsible designer."
 ---
 
 
-My Mantra for this Research...
+I as a Designer, will include the experiences of marginalized groups into my design process.
 
-1. I will <u>not</u> park my identity at the door. (I will not hide, avert, avoid or disguise marginal experiences, including my own.)
-2. I will share experiences of bias, discrimination, prejudice, neglect and microaggressions without shame or fear of retribution. 
-3. To operate on the basis that there is always room for improvement - No one is complete in our path towards progress (social or design).
+I shall not hide, avoid or diminish experiences of others, but integrate identities of people different from me into my work.
+
+In order to create a seamless digital product and service that do not discriminate, bias or neglect,
+
+I will advocate for the user in all their diversity.
+
+With my seat at the table, I will bring voices that can empower companies to make inclusive and smart decisions. 
+
+[SIGNATURE]
 
 ![Nulla faucibus vestibulum eros in tempus. Vestibulum tempor imperdiet velit nec dapibus](./1.jpg)
 
