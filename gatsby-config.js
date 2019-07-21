@@ -4,7 +4,7 @@ const pxtorem = require('postcss-pxtorem')
 module.exports = {
   siteMetadata: {
     url: 'https://fairdesign.ca',
-    title: 'Fair Design Research Blog - by Jude Park',
+    title: 'Fair Design',
     subtitle:
       'Research Blog by Jude Park, a designer who develops technologies for social good.',
     copyright: '© All rights reserved.',
