@@ -32,22 +32,20 @@ class PostTemplateDetails extends React.Component {
   <div className="content__inner">
         <div className="post-single">
           <div className="post-single__inner">
-
-          <div className="post-single__date">
-              <time>
-                {moment(post.frontmatter.date).format('MMMM YYYY')}
-              </time>
-            <span className="post__meta-divider" />
-          <span className="post-single__footer">
-            TAGGED: <div style={{display: 'inline-block'}}>
-            {tagsBlock}
-            </div>
-            </span>
-            </div>
             
             <h1 className="post-single__title">{post.frontmatter.title}</h1>
             
-            <br/>
+            <div className="post-single__date">
+              <time>
+                {moment(post.frontmatter.date).format('MMMM YYYY')}
+              </time>⠀·⠀
+            <span className="post__meta-divider" />
+          <span className="post-single__footer">
+            Tagged: <div style={{display: 'inline-block'}}>
+            {tagsBlock}
+            </div>
+            </span>
+          </div>
             
             <div
               className="post-single__body"
