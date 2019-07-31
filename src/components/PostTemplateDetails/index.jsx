@@ -38,13 +38,8 @@ class PostTemplateDetails extends React.Component {
             <div className="post-single__date">
               <time>
                 {moment(post.frontmatter.date).format('MMMM YYYY')}
-              </time>⠀·⠀
-            <span className="post__meta-divider" />
-          <span className="post-single__footer">
-            Tagged: <div style={{display: 'inline-block'}}>
-            {tagsBlock}
-            </div>
-            </span>
+              </time>
+
           </div>
             
             <div
@@ -53,7 +48,14 @@ class PostTemplateDetails extends React.Component {
               dangerouslySetInnerHTML={{ __html: post.html }}
             />
 
-
+          <br/>
+          
+          <span className="post__meta-divider" />
+          <span className="post-single__footer">
+          <span className="post-single__tags-list-item-link-title">Tagged:</span> <div style={{display: 'inline-block'}}>
+            {tagsBlock}
+            </div>
+            </span>
 
             <p className="post-single__footer-text">
               {subtitle}
@@ -62,7 +64,7 @@ class PostTemplateDetails extends React.Component {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <br /> <strong>{author.name}</strong> on Twitter
+                <br /> Find Jude on <strong>Twitter</strong>
               </a>
             </p>
           </div>

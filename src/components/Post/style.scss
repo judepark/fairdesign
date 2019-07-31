@@ -7,7 +7,10 @@
         @include margin-bottom(.5);
     }
     &__title {
-        font-family: $typographic-font-family;
+        font-family: $typographic-font-family-sans;
+        font-size: $typographic-base-font-size;
+        color: $typographic-base-font-color;
+        font-weight: 400;
         @include line-height(1.5);
         @include margin-top(0);
         @include margin-bottom(-.5);
@@ -21,15 +24,17 @@
         }
     }
     &__description {
-        font-size: $typographic-base-font-size;
-        @include line-height(1);
-        @include margin-bottom(0.5);
+        font-family: $typographic-font-family-sans;
+        font-size: $typographic-small-font-size;
+        color: lighten($color-gray, 18%);
+        @include line-height(0.7);
+        @include margin-bottom(0.3);
     }
     &__meta {
         &-time {
             font-family: $typographic-font-family-sans;
             font-size: $typographic-small-font-size;
-            color: $color-base;
+            color: lighten($color-gray, 18%);
             font-weight: 500;
         }
         &-divider {

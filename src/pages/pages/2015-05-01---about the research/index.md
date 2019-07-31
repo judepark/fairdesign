@@ -4,9 +4,6 @@ layout: page
 path: "/about"
 ---
 
-
----
-
 This is a research blog on technology and equity.
 
 I am a User Experience + Inclusion Expert, and I write about design biases and discrimination, and how designers can avoid them in their process.

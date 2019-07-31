@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://fairdesign.ca',
     title: 'Fair Design',
     subtitle:
-      'Research Blog by Jude Park, a designer who develops technologies for social good.',
+      'Research Blog by Jude Park',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [

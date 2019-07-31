@@ -4,8 +4,8 @@
 .page {
     @include margin-bottom(2);
     &__title {
-        font-family: $typographic-font-family-sans;
-        font-weight: 500;
+        font-family: $typographic-font-family;
+        font-size: 2.50938rem;
         @include line-height(2);
         @include margin-top(0);
         @include margin-bottom(1.45);

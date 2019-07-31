@@ -4,9 +4,6 @@ layout: page
 path: "/fair-design"
 ---
 
-
----
-
 ##Introduction
 
 Fair Design was conceptualized during my masters education, when as a young UX designer I noticed a lack of discipline and pedagogies aimed at educating designers on how to create digital experiences for users with marginalized identities.

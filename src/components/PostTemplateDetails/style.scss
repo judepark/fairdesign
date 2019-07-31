@@ -5,6 +5,7 @@
     @include margin-bottom(2);
     &__title {
         font-family: $typographic-font-family;
+        font-size: 2.50938rem;
         @include line-height(1.5);
         @include margin-top(0);
         @include margin-bottom(-.5);
@@ -61,9 +62,10 @@
     &__date {
         font-family: $typographic-font-family-sans;
         font-size: $typographic-small-font-size;
-        color: $color-base;
+        color: lighten($color-gray, 18%);
         font-weight: 500;
-        @include margin-top(0.6);
+        @include margin-top(1.5);
+        @include margin-bottom(2.5);
     }
     &__tags {
         @include margin-bottom(0);
@@ -79,9 +81,23 @@
                     font-size: $typographic-small-font-size;
                     color: $color-secondary;
                     font-weight: 500;
+
+                    background: lighten($color-gray-bg, 3%);
+                    border: 0;
+                    border-radius: 3px;
+                    padding: 8px 16px;
+
                     &:hover,
                     &:focus {
                         color: $color-primary;
+
+                        background: darken($color-gray-bg, 1%);
+                        border: 0;
+                    }
+                    &-title {
+                        font-family: $typographic-font-family-sans;
+                        font-size: $typographic-small-font-size;
+                        color: lighten($color-gray, 18%);
                     }
                 }
             }
@@ -113,7 +129,7 @@
         &__title {
             font-family: $typographic-font-family;
             @include line-height(1.5);
-            @include margin-top(-0.1);
+            @include margin-top(0);
             @include margin-bottom(-.5);
         }
         &__body {
@@ -121,8 +137,8 @@
             @include line-height(1);
             @include margin(0, 0, 1);
             & p {
-                font-size: $typographic-base-font-size * 1.125;
-                @include line-height(1.125);
+                font-size: $typographic-base-font-size;
+                @include line-height(1);
                 @include margin-bottom(1.125);
                 @include margin-top(1.45);
             }

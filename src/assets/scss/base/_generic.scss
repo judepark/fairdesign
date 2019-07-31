@@ -159,8 +159,18 @@ figcaption {
 }
 
 .footnotes {
-    color: hsla(0, 0%, 0%, 0.34);
+    color: $color-primary;
     line-height: 5px;
+    & ol {
+
+        & li {
+
+            & p {
+                @include line-height(0.9);
+                font-size: $typographic-base-font-size * 0.9;
+            }
+        }
+    }
   }
 
   .footnote-backref {
@@ -173,7 +183,7 @@ figcaption {
 
 .post-single__footer-text {
     margin-top: 50px;
-    background-color: #fffff3;
+    background-color: lighten($color-gray-bg, 3%);
     margin-bottom: -300px;
     padding: 50px 40px 50px 40px;
   }
